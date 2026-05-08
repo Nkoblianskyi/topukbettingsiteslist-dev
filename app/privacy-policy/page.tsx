@@ -16,7 +16,7 @@ export default function PrivacyPolicyPage() {
           <h1 className="font-heading font-700 text-2xl md:text-3xl uppercase tracking-wide text-foreground">
             Privacy Policy
           </h1>
-          <p className="text-muted-foreground text-xs mt-1">Last updated: January {new Date().getFullYear()}</p>
+          <p className="text-muted-foreground text-xs mt-1">Last updated: {new Date().getFullYear()}</p>
         </div>
       </div>
 
