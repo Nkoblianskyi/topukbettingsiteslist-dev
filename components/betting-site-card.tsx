@@ -103,11 +103,11 @@ export function BettingSiteCard({ site, rank }: BettingSiteCardProps) {
 
         {/* Logo */}
         <div className="flex items-center justify-center px-3">
-          <div className="w-36 h-14 bg-black flex items-center justify-center px-3 py-2">
+          <div className="w-44 h-24 bg-black flex items-center justify-center px-3 py-2">
             <img
               src={site.logo || "/placeholder.svg"}
               alt={`${site.name} logo`}
-              className="max-h-10 w-full object-contain"
+              className="max-h-24 w-full object-contain"
             />
           </div>
         </div>
