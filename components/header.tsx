@@ -49,7 +49,7 @@ export function Header() {
               <span className="font-heading font-700 text-[15px] md:text-[17px] uppercase tracking-[0.08em] text-foreground">Top</span>
               <span className="font-heading font-700 text-[15px] md:text-[17px] uppercase tracking-[0.08em] text-primary">UK</span>
               <span className="font-heading font-700 text-[15px] md:text-[17px] uppercase tracking-[0.08em] text-foreground mx-1.5">Betting Sites</span>
-              <span className="hidden sm:inline font-heading font-700 text-[10px] uppercase tracking-[0.12em] text-muted-foreground self-center ml-0.5 border-l border-border pl-1.5">List</span>
+              <span className="font-heading font-heading font-700 text-[10px] uppercase tracking-[0.12em] text-muted-foreground self-center ml-0.5 border-l border-border pl-1.5">List</span>
             </div>
           </Link>
 

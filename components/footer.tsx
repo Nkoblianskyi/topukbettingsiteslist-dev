@@ -93,7 +93,7 @@ export function Footer() {
               <img src="/gamecare.svg" alt="GamCare" className="h-6 w-auto object-contain" />
             </a>
             <a href="https://www.gamblingcommission.gov.uk" target="_blank" rel="noopener noreferrer" className="bg-white px-3 py-2 hover:opacity-90 transition-opacity">
-              <img src="/Gambling_Commission_logo.png" alt="UKGC" className="h-6 w-auto object-contain" />
+              <img src="/commission.png" alt="UKGC" className="h-6 w-auto object-contain" />
             </a>
             <a href="https://gordonmoody.org.uk/" target="_blank" rel="noopener noreferrer" className="bg-white px-3 py-2 hover:opacity-90 transition-opacity">
               <img src="/gordon.png" alt="UKGC" className="h-6 w-auto object-contain" />
