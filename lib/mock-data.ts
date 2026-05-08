@@ -68,7 +68,7 @@ export const bettingSites: BettingSite[] = [
   {
     id: 4,
     name: "BetVictor",
-    logo: "/betvictor.webp",
+    logo: "/betvictor.png",
     bonus: "Get £30 Free Bets",
     url: "https://www.betvictor.com/",
     rating: 9.2,
