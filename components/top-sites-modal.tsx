@@ -55,7 +55,7 @@ export function TopSitesModal() {
 
         {/* Logo */}
         <div className="mx-5 mt-5 bg-black flex items-center justify-center h-16">
-          <img src={top.logo || "/placeholder.svg"} alt={`${top.name} logo`} className="max-h-10 max-w-[160px] object-contain" />
+          <img src={top.logo || "/placeholder.svg"} alt={`${top.name} logo`} className="max-h-24 max-w-[190px] object-contain" />
         </div>
 
         {/* Rating */}

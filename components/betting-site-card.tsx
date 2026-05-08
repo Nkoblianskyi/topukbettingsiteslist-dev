@@ -152,11 +152,11 @@ export function BettingSiteCard({ site, rank }: BettingSiteCardProps) {
             {rank}
           </div>
 
-          <div className="flex-1 flex items-center justify-center bg-black h-10 px-2 py-1">
+          <div className="flex-1 flex items-center justify-center bg-black h-14 px-2 py-1">
             <img
               src={site.logo || "/placeholder.svg"}
               alt={`${site.name} logo`}
-              className="max-h-7 w-full object-contain"
+              className="max-h-14 w-full object-contain"
             />
           </div>
 
