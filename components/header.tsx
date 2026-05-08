@@ -3,6 +3,7 @@
 import Link from "next/link"
 import { useState } from "react"
 import { Shield, Menu, X, ChevronRight } from "lucide-react"
+import Image from "next/image"
 
 const navLinks = [
   { label: "Top Betting Sites", href: "/" },
@@ -40,13 +41,9 @@ export function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2.5 group flex-shrink-0">
             {/* Icon mark */}
-            <div className="flex-shrink-0 w-8 h-8 bg-primary flex items-center justify-center">
-              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
-                <path d="M9 1L16 5V9C16 13 12.5 16.5 9 17C5.5 16.5 2 13 2 9V5L9 1Z" fill="white" fillOpacity="0.15"/>
-                <path d="M9 1L16 5V9C16 13 12.5 16.5 9 17C5.5 16.5 2 13 2 9V5L9 1Z" stroke="white" strokeWidth="1.5" strokeLinejoin="round"/>
-                <path d="M6 9L8.5 11.5L12.5 7" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
+            <Image src="/favicon.ico" width={24} height={24} />
+
+
             {/* Wordmark */}
             <div className="flex items-baseline gap-0 leading-none">
               <span className="font-heading font-700 text-[15px] md:text-[17px] uppercase tracking-[0.08em] text-foreground">Top</span>
